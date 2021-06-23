@@ -20,7 +20,7 @@ export const TabRoutes: React.FC = () => {
       <Route path="/main/search" component={Search} exact={true} />
       <Route path="/main/register" component={Register} exact={true} />
       <Route path="/main/menu" component={Menu} />
-      <Route path="/main" render={() => <Redirect to="/main/search" />} exact={true} />
+      <Route path="/" render={() => <Redirect to="/main/search" />} exact={true} />
     </>
   );
 };
