@@ -1,0 +1,7 @@
+{
+  "name": "acheSeuPerdidoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
